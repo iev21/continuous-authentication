@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support, confusion_matrix
 import joblib
 import os
+
 from collections import defaultdict
 
 class PerUserKeystrokeAuth:
